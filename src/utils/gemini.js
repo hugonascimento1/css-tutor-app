@@ -1,7 +1,7 @@
 export const fetchGeminiFeedback = async (inputText) => {
   try {
       const response = await fetch(
-          "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCHmjREXS-VtPUZcg0MUb0aFIK904yFwUQ",
+          `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${process.env.NEXT_PUBLIC_GEMINI_API_KEY}`,
           {
               method: "POST",
               headers: { "Content-Type": "application/json" },
