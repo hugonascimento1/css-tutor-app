@@ -1,102 +1,132 @@
 [
-  {
-      "id": 1,
-      "title": "Alterar a cor do texto",
-      "description": "Aplique a cor vermelha ao texto dentro da tag <h1>.",
-      "rules": {
-          "selectors": ["h1"],
-          "properties": ["color: red"]
-      },
-      "level": "Iniciante"
-  },
-  {
-      "id": 2,
-      "title": "Centralizar texto com flexbox",
-      "description": "Use Flexbox para centralizar o texto dentro de um container.",
-      "rules": {
-          "selectors": [".container"],
-          "properties": ["display: flex", "justify-content: center", "align-items: center"]
-      },
-      "level": "Intermediário"
-  },
-  {
-      "id": 3,
-      "title": "Criar um layout grid",
-      "description": "Crie um layout com 3 colunas e 2 linhas utilizando Grid.",
-      "rules": {
-          "selectors": [".grid"],
-          "properties": ["display: grid", "grid-template-columns: repeat(3, 1fr)", "grid-template-rows: repeat(2, auto)"]
-      },
-      "level": "Avançado"
-  },
-  {
-      "id": 4,
-      "title": "Criar um botão com hover",
-      "description": "Estilize um botão que muda de cor ao passar o mouse.",
-      "rules": {
-          "selectors": ["button:hover"],
-          "properties": ["background-color: blue"]
-      },
-      "level": "Iniciante"
-  },
-  {
-      "id": 5,
-      "title": "Criar borda arredondada",
-      "description": "Adicione bordas arredondadas em um card com borda preta.",
-      "rules": {
-          "selectors": [".card"],
-          "properties": ["border: 1px solid black", "border-radius: 10px"]
-      },
-      "level": "Intermediário"
-  },
-  {
-      "id": 6,
-      "title": "Modificar o tamanho da fonte",
-      "description": "Defina o tamanho da fonte para 20px dentro da tag <p>.",
-      "rules": {
-          "selectors": ["p"],
-          "properties": ["font-size: 20px"]
-      },
-      "level": "Iniciante"
-  },
-  {
-      "id": 7,
-      "title": "Alterar a cor de fundo",
-      "description": "Aplique a cor de fundo amarela ao elemento com a classe .background.",
-      "rules": {
-          "selectors": [".background"],
-          "properties": ["background-color: yellow"]
-      },
-      "level": "Iniciante"
-  },
-  {
-      "id": 8,
-      "title": "Adicionar margem ao elemento",
-      "description": "Adicione uma margem de 10px ao redor do elemento com a classe .margem.",
-      "rules": {
-          "selectors": [".margem"],
-          "properties": ["margin: 10px"]
-      },
-      "level": "Iniciante"
-  },
-  {
-      "id": 9,
-      "title": "Estilizar texto negrito",
-      "description": "Aplique a propriedade negrito ao texto dentro da tag <strong>.",
-      "rules": {
-          "selectors": ["strong"],
-          "properties": ["font-weight: bold"]
-      },
-      "level": "Iniciante"
-  },
-  {
-      "id": 10,
-      "title": "Adicionar padding ao container",
-      "description": "Adicione padding de 15px ao container com a classe .container.",
-      "rules": {
-          "selectors": [".container"],
-          "properties": ["padding: 15px"]
-      },
-      "level": "Intermediário"
-  }
+    {
+        "id": 1,
+        "title": "Alterar a cor do texto",
+        "question": "Qual a maneira correta de alterar a cor do texto para vermelho?",
+        "options": [
+            "h1 { color: blue; }",
+            "h1 { color: red; }",
+            "h1 { color: green; }",
+            "h1 { color: yellow; }"
+        ],
+        "correctOption": 1,
+        "level": "Iniciante"
+    },
+    {
+        "id": 2,
+        "title": "Centralizar o texto",
+        "question": "Como você centraliza o texto em um parágrafo?",
+        "options": [
+            "p { text-align: left; }",
+            "p { text-align: center; }",
+            "p { text-align: right; }",
+            "p { text-align: justify; }"
+        ],
+        "correctOption": 1,
+        "level": "Iniciante"
+    },
+    {
+        "id": 3,
+        "title": "Definir a largura de um elemento",
+        "question": "Qual propriedade CSS é usada para definir a largura de um elemento?",
+        "options": [
+            "height",
+            "width",
+            "length",
+            "size"
+        ],
+        "correctOption": 1,
+        "level": "Iniciante"
+    },
+    {
+        "id": 4,
+        "title": "Aplicar uma cor de fundo",
+        "question": "Qual propriedade CSS é usada para aplicar uma cor de fundo?",
+        "options": [
+            "color",
+            "background-color",
+            "font-color",
+            "bg-color"
+        ],
+        "correctOption": 1,
+        "level": "Iniciante"
+    },
+    {
+        "id": 5,
+        "title": "Adicionar margem a um elemento",
+        "question": "Qual propriedade CSS adiciona espaço ao redor de um elemento?",
+        "options": [
+            "padding",
+            "margin",
+            "border",
+            "space"
+        ],
+        "correctOption": 1,
+        "level": "Iniciante"
+    },
+    {
+        "id": 6,
+        "title": "Aplicar estilo a links visitados",
+        "question": "Qual pseudoclasse CSS é usada para aplicar estilo a links visitados?",
+        "options": [
+            ":hover",
+            ":focus",
+            ":active",
+            ":visited"
+        ],
+        "correctOption": 3,
+        "level": "Iniciante"
+    },
+    {
+        "id": 7,
+        "title": "Definir a fonte de um texto",
+        "question": "Qual propriedade CSS é usada para definir a fonte de um texto?",
+        "options": [
+            "font-family",
+            "font-style",
+            "font-weight",
+            "font-text"
+        ],
+        "correctOption": 0,
+        "level": "Iniciante"
+    },
+    {
+        "id": 8,
+        "title": "Adicionar borda a um elemento",
+        "question": "Qual propriedade CSS é usada para adicionar borda a um elemento?",
+        "options": [
+            "outline",
+            "border",
+            "padding",
+            "margin"
+        ],
+        "correctOption": 1,
+        "level": "Iniciante"
+    },
+    {
+        "id": 9,
+        "title": "Aumentar o espaçamento entre linhas",
+        "question": "Qual propriedade CSS é usada para aumentar o espaçamento entre linhas de um texto?",
+        "options": [
+            "letter-spacing",
+            "line-height",
+            "spacing",
+            "line-spacing"
+        ],
+        "correctOption": 1,
+        "level": "Iniciante"
+    },
+    {
+        "id": 10,
+        "title": "Definir o tipo de lista",
+        "question": "Qual propriedade CSS é usada para definir o tipo de marcador em uma lista?",
+        "options": [
+            "list-style",
+            "list-type",
+            "bullet-style",
+            "marker-type"
+        ],
+        "correctOption": 0,
+        "level": "Iniciante"
+    }
 ]
